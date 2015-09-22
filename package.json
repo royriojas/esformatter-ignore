@@ -1,6 +1,6 @@
 {
   "name": "esformatter-ignore",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "an esformatter plugin to make esformatter ignore certain lines and blocks of code",
   "repository": "royriojas/esformatter-ignore",
   "license": "MIT",
