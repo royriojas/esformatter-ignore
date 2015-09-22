@@ -22,9 +22,9 @@
     "npm run check"
   ],
   "scripts": {
-    "beautify": "esbeautifier 'index.js' 'lib/**/*.js' 'specs/**/*.spec.js'",
-    "beautify-check": "esbeautifier -k 'index.js' 'lib/**/*.js' 'specs/**/*.spec.js'",
-    "eslint": "eslinter 'index.js' 'lib/**/*.js' 'specs/**/*.spec.js'",
+    "beautify": "esbeautifier 'index.js' 'specs/**/*.spec.js'",
+    "beautify-check": "esbeautifier -k 'index.js' 'specs/**/*.spec.js'",
+    "eslint": "eslinter 'index.js' 'specs/**/*.spec.js'",
     "test": "mocha-runner 'specs/**/*.spec.js'",
     "cover": "istanbul cover -x 'specs/**/*.spec.js' mocha-runner 'specs/**/*.spec.js' html text-summary",
     "watch": "npm run cover && watch-spawn -p 'specs/**/*.spec.js' -p 'index.js' -p  npm run cover",
