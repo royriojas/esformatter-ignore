@@ -1,6 +1,6 @@
 {
   "name": "esformatter-ignore",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "an esformatter plugin to ignore code blocks and lines from the formatting task",
   "repository": "royriojas/esformatter-ignore",
   "license": "MIT",
@@ -50,9 +50,7 @@
     "ignore code block"
   ],
   "peerDependencies": {},
-  "dependencies": {
-
-  },
+  "dependencies": {},
   "devDependencies": {
     "changelogx": "^1.0.18",
     "esbeautifier": "^3.2.0",
