@@ -6,7 +6,7 @@ var escapeRegex = function ( s ) {
 
 var replaceBlocks = function ( source ) {
   var blocks = [ ];
-  var regex = /\/\*esfmt-ignore-start\*\/((.|\n)*?)\/\*esfmt-ignore-end\*\//g;
+  var regex = /\/\*\s*esfmt-ignore-start\s*\*\/((.|\n)*?)\/\*\s*esfmt-ignore-end\s*\*\//g;
   var lineRegex = /^(\s*)((.*?)esfmt-ignore-line(.*))$/gm;
   var counter = 0;
 
