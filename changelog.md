@@ -1,5 +1,10 @@
 
 # esformatter-ignore - Changelog
+## v0.1.2
+- **Enhancements**
+  - improve regex to include spaces between the comment start token and comment end token - [77ec2b1]( https://github.com/royriojas/esformatter-ignore/commit/77ec2b1 ), [royriojas](https://github.com/royriojas), 01/10/2015 12:13:29
+
+    
 ## v0.1.1
 - **Bug Fixes**
   - package.json scripts fixed - [ca6bb67]( https://github.com/royriojas/esformatter-ignore/commit/ca6bb67 ), [royriojas](https://github.com/royriojas), 22/09/2015 00:05:29
