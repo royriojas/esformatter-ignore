@@ -22,7 +22,7 @@ var replaceBlocks = function ( source ) {
     var matchFound = '/*esfmt-ignore-line(' + (counter++) + ')*/';
     blocks.push( {
       source: match,
-      replace: new RegExp( '^\\s+' + escapeRegex( matchFound ), 'm' )
+      replace: new RegExp( '^\\s*' + escapeRegex( matchFound ), 'm' )
     } );
 
     return matchFound;
@@ -33,7 +33,6 @@ var replaceBlocks = function ( source ) {
 
 var restoreBlocks = function ( source, blocks ) {
   blocks = blocks || [ ];
-
   blocks.forEach( function ( block ) {
     source = source.replace( block.replace, block.source );
   } );
