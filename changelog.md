@@ -1,5 +1,10 @@
 
 # esformatter-ignore - Changelog
+## v0.1.3
+- **Bug Fixes**
+  - make sure ignore line works as expected. Fixes [#1](https://github.com/royriojas/esformatter-ignore/issues/1) - [9f07dff]( https://github.com/royriojas/esformatter-ignore/commit/9f07dff ), [royriojas](https://github.com/royriojas), 08/10/2015 13:31:02
+
+    
 ## v0.1.2
 - **Enhancements**
   - improve regex to include spaces between the comment start token and comment end token - [77ec2b1]( https://github.com/royriojas/esformatter-ignore/commit/77ec2b1 ), [royriojas](https://github.com/royriojas), 01/10/2015 12:13:29
